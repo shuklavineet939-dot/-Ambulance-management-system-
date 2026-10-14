@@ -1,0 +1,29 @@
+SAMPLE OUTPUT (illustrative)
+
+============================================
+       AMBULANCE MANAGEMENT SYSTEM
+============================================
+1. Add patient / emergency request
+2. Assign ambulance to next waiting patient
+3. Display ambulance list
+4. Display patient records
+5. Display waiting queue
+6. Mark ambulance trip as complete
+0. Exit
+--------------------------------------------
+Enter your choice: 1
+
+Enter patient name: Rohan
+Enter patient age: 25
+Enter pickup location: Civil Lines
+Emergency level (1-Critical, 2-High, 3-Normal): 1
+
+Patient registered successfully. Patient ID: 1
+
+Enter your choice: 2
+
+Ambulance assigned successfully!
+Patient: Rohan (ID: 1)
+Ambulance ID: 101 | Driver: Amit
+Pickup location: Civil Lines
+Note: This demo assigns patients in FIFO queue order.

@@ -1,0 +1,44 @@
+AMBULANCE MANAGEMENT SYSTEM
+DSA MINI PROJECT REPORT
+
+Student Name: Vineet Shukla
+Roll Number: 2510201592
+Class / Section: 3rd Semester, Section D
+College: Invertis University, Bareilly
+
+1. INTRODUCTION
+The Ambulance Management System is a menu-driven C program designed to demonstrate how basic data structures can support a simple ambulance dispatch workflow.
+
+2. OBJECTIVES
+- Register patient emergency requests.
+- Maintain a waiting list of patients.
+- Assign an available ambulance to the next waiting patient.
+- Track ambulance availability and patient records.
+- Demonstrate structures, arrays, searching, and queues.
+
+3. DATA STRUCTURES USED
+- Structure: stores patient and ambulance information.
+- Array: stores the ambulance and patient records.
+- Circular Queue: stores waiting patients in FIFO order.
+- Linear Search: finds an available ambulance.
+
+4. MODULES
+1. Add patient / emergency request
+2. Assign ambulance
+3. Display ambulance list
+4. Display patient records
+5. Display waiting queue
+6. Mark trip complete
+
+5. HOW TO RUN
+Compile with GCC:
+    gcc ambulance.c -o ambulance
+Then run:
+    ./ambulance
+On Windows, run ambulance.exe after compiling.
+
+6. LIMITATIONS
+The program keeps data in memory only, so records are lost after the program closes. The project is for educational demonstration only and is not connected to real emergency services.
+
+7. CONCLUSION
+This project demonstrates the use of C programming and fundamental DSA concepts in a small ambulance dispatch simulation.
